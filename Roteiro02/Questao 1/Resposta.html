@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Questão 1</title>
+</head>
+
+<body>
+
+<h1>1) Sobre o Paradigma de Programação Orientada a objetos, responda as seguintes questões:</h1>
+
+<h2>(a) O que são classes e objetos? Explique a diferença entre os dois.</h2>
+	<h3><i>
+	   Classe é uma estrutura que define o comportamento de objetos através de métodos.<br>
+	   Objeto é uma instância de uma classe. Ele lida com informações recebidas da forma como a classe ordena.<br>
+	   A classe se diferencia do objeto pois é ela quem o manipula e controla suas entradas e saídas.
+	</i></h3>
+	
+	
+<h2>(b) Para que serve um construtor e quando e como ele pode ser utilizado?</h2>
+	<h3><i>
+	   Servem para criar um novo objeto de uma classe determinada.<br>
+	   É utilizado sempre que for preciso um novo objeto para alguma finalidade específica.<br>
+	   Pode ser utilizado  com parâmetros vazios aguardando receber argumentos(aguardando dados do get e set), ou<br>
+	   já  ser inicializado com parâmetros.
+	 </i></h3>
+	
+<h2>(c) Quais são os benefícios do encapsulamento? Exemplifique.</h2>
+	<h3><i>
+	Independência dos outros objetos e mais proteção, pos os atributos só são.<br>
+	acessados através de métodos.<br><br>
+	Exemplo:<br></i>
+		classe Carro{<br>
+			private:<br>
+				double velocidade;<br>
+			public:<br>
+			void AlterarVelocidade(double velocidade);<br>
+		};<br><br>
+		
+		void Carro::AlterarVelocidade(double velocidade){<br>
+			this->velocidade = velocidade;<br>
+		}<br><br>
+		
+	<i>A velocidade do objeto só é alterada pelo método AlterarVelocidade();</i><br>	
+	</i></h3>
+	
+</body>
+
+</html>
