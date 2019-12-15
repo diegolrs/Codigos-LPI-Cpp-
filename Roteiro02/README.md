@@ -1,4 +1,4 @@
-# Primeira atividade de Linguagem de programação I - Professor Tiago Maritan
+# Segunda atividade de Linguagem de programação I - Professor Tiago Maritan
 
 ### Linguagem: C++
 
