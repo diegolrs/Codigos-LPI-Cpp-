@@ -15,7 +15,16 @@ TrabalhadorPorHora::TrabalhadorPorHora(std::string nome, double salario) : Traba
 double TrabalhadorPorHora::getSalarioSemanal(){
     double salario;
     salario = getSalario();
-    salario *= horasTrabalhadas;
+	
+	if(horasTrabalhadas <=40)
+		salario *= horasTrabalhadas;
+	else{
+		float exc;
+		exc = horasTrabalhadas - 40;
+		exc = exc * 1.5;
+		salario *= (horasTrabalhadas + exc);
+	}
+		
     return salario;
 }
 
