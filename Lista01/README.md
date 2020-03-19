@@ -1,9 +1,6 @@
-# Primeira atividade de Laboratório de Linguagem de programação I - Professor Derzu Omaia
+# Projeto final para as disciplinas de Linguagem de programação I (Professor Tiago Maritan) e Laboratório de Linguagem de programação I (Professor Derzu Omaia)
 
-### Linguagem: C++
+### Linguagem utilizada: C++.
 
-<p align="center">
-
-   <img width="100%" height="100%" src="https://github.com/dlrds/Codigos-LPI-Cpp-/blob/master/Lista01/imagens/Lista1-1.jpg">
-   <img width="100%" height="100%" src="https://github.com/dlrds/Codigos-LPI-Cpp-/blob/master/Lista01/imagens/Lista1-2.jpg">
-</p>
+### Para o projeto foi utilizado a biblioteca "opencv". Além do windows forms possibilitado pelo Visual Studio.
+### O projeto se trata de um sistema bancário no qual o acesso é feito via detecção de cor.
